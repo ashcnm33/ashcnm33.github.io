@@ -1,0 +1,431 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
+}
+
+.text {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (max-width: 600px) {
+  .text {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+html {
+    background-color: #50404d;
+}
+
+#mypage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+header {
+    background-color: #100218;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+.navbar h1 {
+  font-family: 'Arial' , sans-serif;
+  color: #c0c0c0;
+}
+
+@media (max-width: 600px) {
+  .navbar h1 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+.cp-title {
+  color: #e7daef;
+}
+
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  width: 120px;
+  display: block;
+  margin: 0 auto;
+}
+
+
+@media (max-width: 600px) {
+    .logo {
+      max-width: 15vw;
+      height: auto;
+      display: block;
+      margin: 10px auto;
+    }
+}
+
+#contentarea {
+    height: auto;
+}
+
+.text h2, p {
+  color: #ffffff;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .hero-image {
+    max-width: 700px;
+  }
+}
+
+.img {
+    text-align: center;
+}
+
+#company_profile {
+    color: #ffffff;
+    background-color: #695476;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#meet_trainees {
+    text-align: center;
+    margin: 50px 0;
+    background-color: #695476;
+}
+
+#meet_trainees h2 {
+    color: #ffffff;
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.members {
+    background-color: #e4d7eb;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+}
+
+.members img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.members h4 {
+    margin: 10px 0 5px 0;
+    font-size: 1.2em;
+}
+
+.members .role {
+    color: #181c6d;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.members p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #333;
+}
+
+.members p b {
+  color: rgb(65, 40, 99);
+}
+
+#job_spec {
+    display: flex;
+    justify-content: center;
+    background-color: #695476;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.am h1 {
+    color: #ffffff;
+}
+
+.am p {
+  font-size: large;
+}
+
+.jobs {
+    background-color: #e4d7eb;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+    position: relative;
+}
+
+.jobs h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.jobs p {
+  color: #666;
+  margin: 8px 0;
+  line-height: 1.5em;
+}
+
+
+.jobs p strong {
+  color: rgb(133, 16, 127);
+}
+
+#title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+}
+#description {
+  text-align: center;
+  color: black;
+}
+#form-container {
+  background-color: rgb(227, 197, 239);
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+}
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+#wrapper {
+  text-align: center;
+}
+#submit {
+  background-color: purple;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+}
+
+.dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}
+
+.text {
+  color: #ffffff;
+}
+
+#courses {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.links {
+    background-color: #cfa8db;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.links:hover {
+    transform: translateY(-5px);
+}
+
+.links img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.links h2 {
+    margin: 15px 0 10px 0;
+    color: #333;
+}
+
+.links p {
+    margin: 0 15px 15px 15px;
+    color: #333;
+    font-size: 0.95em;
+}
+
+.links a {
+    display: inline-block;
+    margin-bottom: 15px;
+    text-decoration: none;
+    background-color: #62067e;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.links a:visited {
+  color: palevioletred;
+}
+
+.links a:hover {
+    background-color: #292290;
+}
+
+footer {
+    text-align: center;
+    padding: 2px;
+    background-color: #290b3a;
+    color: white;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* For Mobile Devices */
+@media (max-width: 600px) {
+    .navbar, .members, .jobs {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .team {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+/* For Tablets */
+@media (min-width: 600px) and (max-width: 1024px) {
+    .team {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
+
+/* For Desktops */
+@media (min-width: 1024px) {
+    .team {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .logo {
+        width: 150px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.members {
+    flex: 1 1 250px;
+    max-width: 300px;
+}

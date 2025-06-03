@@ -1,0 +1,21 @@
+/*
+This css is for the home page
+*/
+body {
+background-color: #f9b0d6;
+font-family: arial;
+}
+
+p {
+ color: #d0b6ce;
+}
+
+h1 {
+color: #35a;
+font-size: 700%
+}
+
+h6 {
+font-size:90px;
+font-family: arial;
+}
