@@ -55,7 +55,7 @@ height: auto;
 font-size: 450%;
 }
 
-.hm {
+/* .hm {
 height: 65px;
 background-color: #e8d8c8;
 border: 10px;
@@ -65,17 +65,17 @@ border: 10px;
 height: 65px;
 background-color: #a7c3d5;
 border: 10px;
-}
+} */
 
-.company_profile {
+/* .company_profile {
     width: 100%;
     height: 250px;
     background-color: #E6E6FA;
     /* border-radius: 8px;
     margin: 10px; */
-}
+} */
 
-.current_trainees {
+/* .current_trainees {
     width: 100%;
     height: 400px;
     background-color: #93E9BE;
@@ -116,4 +116,4 @@ border: 10px;
 
 .our_courses p {
     width: ;
-}
+} */
